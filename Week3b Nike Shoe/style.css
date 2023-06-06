@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+}
+.sh-brand{
+    margin: 0 0px 50px 180px;
+    width: 50%;
+}
+.logo-txt{
+    padding-top: 20px;
+    
+}
+.content-txt{
+    padding-top: 50px;
+    width: 50%;
+}
+#sh-brand-mk{
+    padding: 50px;
+    margin: 0;
+    position: relative; 
+    background-image: url(shoe.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: 100%;
+    width: 50%;
+    height: 500px;
+    float: left;
+}
+.navbar{
+    text-align: right;
+    margin-top: 0;
+}
+.navbar a{
+    padding: 20px;
+    margin-top: 0;
+    color: white;
+    text-decoration: none;
+}
