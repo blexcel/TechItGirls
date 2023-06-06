@@ -1,0 +1,20 @@
+body{
+    background-color: purple;
+}
+.container{
+    position: absolute;
+    text-align: center;
+    background-color: #d4a6d4;
+    width: 50%;
+    left: 25%;
+    top: 0;
+}
+.img-div{
+    position: relative;
+}
+.profile-div{
+    border: #d3caca;
+    border-style: double;
+    margin: 15px;
+    padding: 5px;
+}
