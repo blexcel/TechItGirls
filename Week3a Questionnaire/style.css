@@ -1,0 +1,31 @@
+body{
+
+}
+.container{
+    position: absolute;
+    /* text-align: center; */
+    width: 50%;
+    left: 25%;
+    background-color: #d4a6d4;
+    top: 0;
+}  
+.logo-img{
+    display: flex;
+    background: url(TIGpp.jpeg) no-repeat center;
+    background-size: 15%;
+    text-align: center;
+}
+
+/* .logo-text{
+    margin-top: 20px;
+    padding-top: 80px;
+    margin-left: 200px;
+} */
+.form-mbr{
+    text-align: center;
+}
+
+form{
+    padding: 20px;
+}
+

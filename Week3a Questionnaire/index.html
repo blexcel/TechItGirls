@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Questionnaire</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+        <div class="container">
+            <div class="logo-img">
+                    <div class="logo-text">
+                        <h1>TechItGirls</h1>
+                    </div>
+            </div>
+
+            <div class="form-mbr">
+                <h2>Alumni Registration Form</h2>
+                <h4>
+                Membership is open to African ladies from 18-40 years and are
+                passionate about Tech
+                </h4>
+            </div>
+
+            <form action="">
+                <label for="fname">First Name</label><br>
+                <input type="text" id="fname" name="fname"><br>
+
+                <label for="">Last Name</label><br>
+                <input type="text" id="lname" name="lname"><br>
+
+                <label for="email">Email</label><br>
+                <input type="email" id="email" name="email"><br>
+
+                <label for="telephone">Phone Number</label><br>
+                <input type="tel"><br>
+
+                <label for="graduation">Year of Graduation</label><br>
+                <input type="number" id="graduation" name="graduation" min="2023" max="2029"><br>
+
+                <label for="dob">Date of Birth</label><br>
+                <input type="datetime" id="dob" name="dob"><br>
+
+
+                <P>Choose your course of Study:</P>
+                <input type="radio" id="ux" name="course_of_study" value="UI/UX">
+                <label for="ux">UI/UX</label><br>
+
+                <input type="radio" id="frontend" name="course_of_study" value="Frontend">
+                <label for="frontend">Web Development</label><br>
+
+                <input type="radio" id="Data_Analysis" name="course_of_study" value="Data_Analytics">
+                <label for="Data_Analysis">Data Analytics</label><br>
+
+                <input type="radio" id="mobile" name="course_of_study" value="Moile_Development">
+                <label for="mobile">Mobile Development</label><br>
+
+                <input type="radio" id="data_science" name="course_of_study" value="Data_Science">
+                <label for="data_science">Data Science</label><br>
+
+                <input type="radio" id="pm" name="course_of_study" value="Project_Management">
+                <label for="pm">Project Management</label>
+
+                <p>Employment Status</p>
+                <input type="radio" id="employed" name="employment_status" value="Employed">
+                <label for="employed">Employed</label><br>
+
+                <input type="radio" id="umemployed" name="employment_status" value="umemployed">
+                <label for="umemployed">Unemployed</label><br>
+
+                <input type="radio" id="student" name="employment_status" value="student">
+                <label for="student">Student</label><br>
+
+                <label for="comment">What do you think about TechItGirls</label><br>
+                <textarea name="coomment" id="comment" cols="30" rows="5"></textarea>
+            </form>
+        </div>
+  </body>
+</html>
