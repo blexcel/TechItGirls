@@ -1,0 +1,9 @@
+.flex-container{
+    background-color: blue;
+    display: flex;
+}
+.flex-container > div{
+    background-color: white;
+    margin: 30px;
+    padding: 30px;
+}
