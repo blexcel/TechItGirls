@@ -1,0 +1,214 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    max-width: 100%;
+}
+.navbar{
+    position: relative;
+    display: flex;
+    max-width: 1000px;
+    height: 98px;
+}
+.logo{
+    margin-left: 50px;
+    margin-top: 25px;
+    font-size: 40px;
+    line-height: 44px;
+    font-style: italic;
+
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    position: absolute;
+    width: 64px;
+    height: 24px;
+    left: 338px;
+    top: 39px;  
+}
+
+.navbar ul li{
+    padding-left: 25px;
+}
+.navbar a{
+    text-decoration: none;
+    color: #000000;
+}
+.nav-search{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    left: 1036px;
+    top: 30px;
+}
+.nav-cart{
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    left: 1149px;
+    top: 39px;
+}
+.online-book{
+    position: absolute;
+    width: 121px;
+    height: 24px;
+    left: 1250px;
+    top: 39px;
+}
+.web-img img{
+    max-width: 100%;
+    height: 947px;
+}
+.kinky-fab{
+    position: absolute;
+    width: 414px;
+    height: 216px;
+    left: 900px;
+    top: 500px;
+    color: #ffffff;
+    
+}
+.kinky-fab button{
+    width: 150px;
+    height: 40px;
+    left: 1016px;
+    top: 872px;
+
+    font-family: 'Cinzel';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 18px;
+}
+.kinky-fab h1{
+    text-align: center;
+    font-family: 'Cinzel';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 80px;
+    line-height: 108px;
+    color: #FFFFFF;
+
+}
+.kinky-fab h3{
+    font-size: 15px;
+}
+.first-visit{
+    position: absolute;
+    width: 318px;
+    height: 272px;
+    left: 1001px;
+    top: 960px;
+    color: #ffffff;
+    background: #000000;
+}
+.first-visit p{
+    text-align: center;
+    width: 253px;
+    height: 64px;
+    margin-top: 80px;
+    margin-left: 25px;
+
+    font-family: 'Cinzel';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;      
+
+}
+.first-visit button{
+    width: 121px;
+    height: 24px;
+    margin-top: 20px;
+    margin-left: 10px;
+    left: 1250px;
+    top: 39px;
+
+    font-family: 'Cinzel';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 18px;
+
+}
+.saloon-cnt{
+    max-width: 1000px;
+    margin: 250px auto 0 auto;
+}
+.saloon-serv{
+    display: flex;
+    text-align: center;
+}
+.stylist{
+    display: flex;
+    margin-top: 50px;
+}
+.professionals{
+    display: flex;
+    margin-left: 350px;
+   margin-top: 40px;
+
+}
+.day-offer{
+    display: flex;
+    max-width: 80%;
+    margin: auto;
+    margin-top: 40px;
+}
+.day-offer-txt{
+    padding-left: 30px;
+}
+.lookbook{
+   text-align: center;
+   margin-top: 40px;
+}
+.lookbook-head h2{
+    margin-left: 500px;
+    font-weight: 500;
+    font-size: 35px;
+}
+.lookbook-head .thin-arrow{
+   margin-left: 790px;
+}
+.lookbook-cnt{
+    width: 5px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    margin-top: 40px;
+    margin-left: 600px;
+}
+.staff img{
+    width: 200px;
+    height: auto;
+}
+.products{
+    display: flex;
+    margin-top: 200px;
+    margin-left: 50px;
+    justify-content: center;
+    align-items: center;
+}
+.product-img img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.product-lists{
+    display: flex;
+    margin-left: 150px;
+    padding-left: 100px;
+}
+.product-lists ul{
+    text-decoration: none;
+    list-style: none;
+    padding-left: 0;
+    font-size: small;
+}
+.item{
+    padding-right: 50px;
+}
